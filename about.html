@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ben Tossell - vibe coder</title>
+    <title>About Me - Ben Tossell</title>
     <style>
         * {
             margin: 0;
@@ -25,7 +25,7 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
         }
 
         header {
@@ -48,30 +48,40 @@
         }
 
         h1 {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             margin-bottom: 1rem;
             color: #2d3748;
         }
 
         .subtitle {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: #4a5568;
             margin-bottom: 2rem;
         }
 
-        .description {
-            font-size: 1.2rem;
+        .about-section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #2d3748;
+        }
+
+        p {
+            font-size: 1.1rem;
             color: #4a5568;
-            max-width: 600px;
+            margin-bottom: 1rem;
         }
 
         @media (max-width: 600px) {
             h1 {
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
             
             .subtitle {
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
         }
     </style>
@@ -87,9 +97,32 @@
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
         </nav>
-        
-        <div class="description">
-            Building things that make the internet better, one line of code at a time.
+
+        <div class="about-section">
+            <h2>About Me</h2>
+            <p>
+                Hi there! I'm Ben Tossell, a passionate developer focused on creating meaningful digital experiences.
+            </p>
+            <p>
+                With a background in technology and a love for clean, efficient code, I'm constantly exploring new ways to innovate and improve the digital landscape.
+            </p>
+            <p>
+                When I'm not coding, you might find me experimenting with new technologies, contributing to open-source projects, or sharing my knowledge with the community.
+            </p>
+        </div>
+
+        <div class="about-section">
+            <h2>My Skills</h2>
+            <p>
+                I specialize in web development with expertise in HTML, CSS, JavaScript, and various modern frameworks. I'm passionate about creating intuitive user experiences and building applications that make a difference.
+            </p>
+        </div>
+
+        <div class="about-section">
+            <h2>Get in Touch</h2>
+            <p>
+                I'm always open to new opportunities, collaborations, or just a friendly chat about technology. Feel free to reach out!
+            </p>
         </div>
     </div>
 </body>
